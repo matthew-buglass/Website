@@ -7,6 +7,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
+    margin: 0px;
 }
 
 /* Nave Styles */
@@ -90,7 +91,7 @@ body {
 
 .img-text-wrapper:hover .subtitle {
     font-weight: 600;
-    color: lightseagreen;
+    color: #06E06C;
 }
 
 .img-darken {
@@ -110,17 +111,42 @@ body {
 /* About Page Styles */
 .two-col-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
 }
 
 .profile-image-wrapper img {
     width: 100%;
+    padding: 0;
 }
 
 .profile-content-wrapper {
     padding: 30px;
+    padding-bottom: 0px;
 }
 
 .profile-content-wrapper h1 {
-    color: lightseagreen;
+    color: #06E06C;
+}
+
+/* CV Styles */
+.cv-section-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.quick-ref-wrapper {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    color: white;
+}
+
+.quick-ref-wrapper img {
+    width: 100%;
+}
+
+.detailed-info-wrapper {
+    padding: 10px;
+}
+
+.cv-section-content-wrapper {
+    padding: 20px;
 }
