@@ -3,94 +3,98 @@
 <head>
     <meta charset="utf-8" />
     <title>Curling Scraper Download</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="curlingStyles.css">
 </head>
 
 <body>
     <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Curling_Canada_Scraper_0"></a>Curling Canada Scraper</h1>
-        <ul>
-            <li class="has-line-data" data-line-start="1" data-line-end="2"><strong>Author:</strong> Matthew Buglass</li>
-            <li class="has-line-data" data-line-start="2" data-line-end="3"><strong>Copyright © 2021. Edwards School of Business - University of Saskatchewan</strong></li>
-            <li class="has-line-data" data-line-start="3" data-line-end="4"><strong>Version:</strong> 00.10.00</li>
-            <li class="has-line-data" data-line-start="4" data-line-end="5"><strong>Maintainer:</strong> Matthew Buglass</li>
-            <li class="has-line-data" data-line-start="5" data-line-end="6"><strong>Email:</strong> <a href="mailto:scrapefl@gmail.com">scrapefl@gmail.com</a></li>
-            <li class="has-line-data" data-line-start="6" data-line-end="8"><strong>Status:</strong> Beta Release</li>
-        </ul>
-    
-    <h1 class="code-line" data-line-start=8 data-line-end=9 ><a id="About_8"></a>About</h1>
-        <p class="has-line-data" data-line-start="9" data-line-end="12">This program allows for scrapping data from Canadian National curling championships<br>
-            dating back to the 1928 MacDonald Brier. Additionally, users can customize their data<br>
-            sets and preview them before exporting to a csv file format.</p>
+    <ul>
+    <li class="has-line-data" data-line-start="1" data-line-end="2"><strong>Author:</strong> Matthew Buglass</li>
+    <li class="has-line-data" data-line-start="2" data-line-end="3"><strong>Copyright © 2021. Edwards School of Business - University of Saskatchewan</strong></li>
+    <li class="has-line-data" data-line-start="3" data-line-end="4"><strong>Version:</strong> 00.01.20</li>
+    <li class="has-line-data" data-line-start="4" data-line-end="5"><strong>Maintainer:</strong> Matthew Buglass</li>
+    <li class="has-line-data" data-line-start="5" data-line-end="6"><strong>Email:</strong> <a href="mailto:scrapefl@gmail.com">scrapefl@gmail.com</a></li>
+    <li class="has-line-data" data-line-start="6" data-line-end="7"><strong>Status:</strong> Beta Release</li>
+    <li class="has-line-data" data-line-start="7" data-line-end="9">Curling data collected from and used with permission of <a href="https://stats.curling.io/">Curling Canada</a>
+    </ul>
+    <h1 class="code-line" data-line-start=9 data-line-end=10 ><a id="About_9"></a>About</h1>
+    <p class="has-line-data" data-line-start="10" data-line-end="13">This program allows for scrapping data from Canadian National curling championships<br>
+    dating back to the 1928 MacDonald Brier. Additionally, users can customize their data<br>
+    sets and preview them before exporting to a csv file format.</p>
+    <h1 class="code-line" data-line-start=14 data-line-end=15 ><a id="Change_Log_14"></a>Change Log</h1>
+    <p class="has-line-data" data-line-start="15" data-line-end="18"><em>Version 00.01.20:</em> Various bug fixes for retrieving csv data<br>
+    <em>Version 00.01.10:</em> Hotfix for function adding in analysis section<br>
+    <em>Version 00.01.00:</em> Initial Beta Release</p>
     <hr>
-    <h1 class="code-line" data-line-start=15 data-line-end=16 ><a id="Features_15"></a>Features</h1>
-    <h2 class="code-line" data-line-start=16 data-line-end=17 ><a id="Data_Scraping_16"></a>Data Scraping</h2>
-    <p class="has-line-data" data-line-start="17" data-line-end="18"><img width=800 src="images/img_1.png" alt="img_1.png"></p>
-    <p class="has-line-data" data-line-start="19" data-line-end="22">By clicking “Scrape” in the top left toolbar users can choose to scrape only years<br>
+    <h1 class="code-line" data-line-start=21 data-line-end=22 ><a id="Features_21"></a>Features</h1>
+    <h2 class="code-line" data-line-start=22 data-line-end=23 ><a id="Data_Scraping_22"></a>Data Scraping</h2>
+    <p class="has-line-data" data-line-start="23" data-line-end="24"><img src="readmeImages/img_1.png" alt="img_1.png"></p>
+    <p class="has-line-data" data-line-start="25" data-line-end="28">By clicking “Scrape” in the top left toolbar users can choose to scrape only years<br>
     of data that are not on file, or scrape all new data in case of database changes or<br>
     updates. Users can choose one of 5 professional curling tournaments:</p>
     <ul>
-    <li class="has-line-data" data-line-start="22" data-line-end="23">Brier</li>
-    <li class="has-line-data" data-line-start="23" data-line-end="24">Hearts</li>
-    <li class="has-line-data" data-line-start="24" data-line-end="25">Men’s Trials</li>
-    <li class="has-line-data" data-line-start="25" data-line-end="26">Men’s Canadian Cup</li>
-    <li class="has-line-data" data-line-start="26" data-line-end="28">MacDonald Brier</li>
+    <li class="has-line-data" data-line-start="28" data-line-end="29">Brier</li>
+    <li class="has-line-data" data-line-start="29" data-line-end="30">Hearts</li>
+    <li class="has-line-data" data-line-start="30" data-line-end="31">Men’s Trials</li>
+    <li class="has-line-data" data-line-start="31" data-line-end="32">Men’s Canadian Cup</li>
+    <li class="has-line-data" data-line-start="32" data-line-end="34">MacDonald Brier</li>
     </ul>
-    <p class="has-line-data" data-line-start="28" data-line-end="32">After choosing the tournament and years, users can see progress updated from<br>
+    <p class="has-line-data" data-line-start="34" data-line-end="38">After choosing the tournament and years, users can see progress updated from<br>
     the scrape while they wait for it to complete. After the data is on file locally,<br>
     summary statistics can be viewed for each tournament and year on the main screen<br>
     dashboard.</p>
-    <p class="has-line-data" data-line-start="33" data-line-end="34"><img width=800 src="images/img_3.png" alt="img_3.png"></p>
-    <h2 class="code-line" data-line-start=35 data-line-end=36 ><a id="Data_Customization_and_Export_35"></a>Data Customization and Export</h2>
-    <p class="has-line-data" data-line-start="36" data-line-end="37"><img width=800 src="images/img_5.png" alt="img_5.png"></p>
-    <p class="has-line-data" data-line-start="38" data-line-end="40">By clicking “Analyze” in the top Left toolbar users are able to choose a tournament<br>
+    <p class="has-line-data" data-line-start="39" data-line-end="40"><img src="readmeImages/img_3.png" alt="img_3.png"></p>
+    <h2 class="code-line" data-line-start=41 data-line-end=42 ><a id="Data_Customization_and_Export_41"></a>Data Customization and Export</h2>
+    <p class="has-line-data" data-line-start="42" data-line-end="43"><img src="readmeImages/img_5.png" alt="img_5.png"></p>
+    <p class="has-line-data" data-line-start="44" data-line-end="46">By clicking “Analyze” in the top Left toolbar users are able to choose a tournament<br>
     and year range of data that they would like to analyze.</p>
     <ul>
-        <li class="has-line-data" data-line-start="40" data-line-end="41"><strong>Tournament:</strong> This is which tournament is to be analyzed (i.e. Brier, Hearts, etc.)</li>
-        <li class="has-line-data" data-line-start="41" data-line-end="42"><strong>Years:</strong> The inclusive year range of data</li>
-        <li class="has-line-data" data-line-start="42" data-line-end="46"><strong>Dependent Variable:</strong> The data variable that you’d like to predict
-            <ul>
-                <li class="has-line-data" data-line-start="43" data-line-end="45">Only one occurrence of a variable can appear in a data set (i.e. one variable cannot be<br>
-                both dependent and independent)</li>
-                <li class="has-line-data" data-line-start="45" data-line-end="46">The dependent variable will always appear to the far right of the data set</li>
-            </ul>
-        </li>
-        <li class="has-line-data" data-line-start="46" data-line-end="52"><strong>Granularity:</strong> This is the level at which the data will be analyzed. The statistics from the<br>
-        different levels of granularity can be combined using functions like add, sum, division, average,<br>
-        standard deviation, and many more. There are 3 levels of granularity:
-            <ul>
-                <li class="has-line-data" data-line-start="49" data-line-end="50"><em>Match</em> will yield one data line for each game played and is used for comparing match ups</li>
-                <li class="has-line-data" data-line-start="50" data-line-end="51"><em>Team</em> will yield two data lines for each game played (one for each team)</li>
-                <li class="has-line-data" data-line-start="51" data-line-end="52"><em>Player</em> will yield one data line for each player in each game</li>
-            </ul>
-        </li>
-        <li class="has-line-data" data-line-start="52" data-line-end="56"><strong>Data Variables:</strong> The data variables are on the left side of the screen and can be clicked on<br>
-        to be added as independent variables to the data set. The variables will be added to the data set<br>
-        in the order that they were clicked on. Selected variables will be highlighted.</li>
+    <li class="has-line-data" data-line-start="46" data-line-end="47"><strong>Tournament:</strong> This is which tournament is to be analyzed (i.e. Brier, Hearts, etc.)</li>
+    <li class="has-line-data" data-line-start="47" data-line-end="48"><strong>Years:</strong> The inclusive year range of data</li>
+    <li class="has-line-data" data-line-start="48" data-line-end="52"><strong>Dependent Variable:</strong> The data variable that you’d like to predict
+    <ul>
+    <li class="has-line-data" data-line-start="49" data-line-end="51">Only one occurrence of a variable can appear in a data set (i.e. one variable cannot be<br>
+    both dependent and independent)</li>
+    <li class="has-line-data" data-line-start="51" data-line-end="52">The dependent variable will always appear to the far right of the data set</li>
     </ul>
-    <h3 class="code-line" data-line-start=56 data-line-end=57 ><a id="Adding_Variable_Options_56"></a>Adding Variable Options</h3>
-    <p class="has-line-data" data-line-start="57" data-line-end="61"><img width=800 src="images/img_6.png" alt="img_6.png"><br>
-    <img width=800 src="images/img_7.png" alt="img_7.png"><br>
-    <img width=800 src="images/img_8.png" alt="img_8.png"><br>
-    <img width=800 src="images/img_9.png" alt="img_9.png"></p>
-    <p class="has-line-data" data-line-start="62" data-line-end="67">If the independent variable to you need is not present, “Add Option” can<br>
+    </li>
+    <li class="has-line-data" data-line-start="52" data-line-end="58"><strong>Granularity:</strong> This is the level at which the data will be analyzed. The statistics from the<br>
+    different levels of granularity can be combined using functions like add, sum, division, average,<br>
+    standard deviation, and many more. There are 3 levels of granularity:
+    <ul>
+    <li class="has-line-data" data-line-start="55" data-line-end="56"><em>Match</em> will yield one data line for each game played and is used for comparing match ups</li>
+    <li class="has-line-data" data-line-start="56" data-line-end="57"><em>Team</em> will yield two data lines for each game played (one for each team)</li>
+    <li class="has-line-data" data-line-start="57" data-line-end="58"><em>Player</em> will yield one data line for each player in each game</li>
+    </ul>
+    </li>
+    <li class="has-line-data" data-line-start="58" data-line-end="62"><strong>Data Variables:</strong> The data variables are on the left side of the screen and can be clicked on<br>
+    to be added as independent variables to the data set. The variables will be added to the data set<br>
+    in the order that they were clicked on. Selected variables will be highlighted.</li>
+    </ul>
+    <h3 class="code-line" data-line-start=62 data-line-end=63 ><a id="Adding_Variable_Options_62"></a>Adding Variable Options</h3>
+    <p class="has-line-data" data-line-start="63" data-line-end="67"><img src="readmeImages/img_6.png" alt="img_6.png"><br>
+    <img src="readmeImages/img_7.png" alt="img_7.png"><br>
+    <img src="readmeImages/img_8.png" alt="img_8.png"><br>
+    <img src="readmeImages/img_9.png" alt="img_9.png"></p>
+    <p class="has-line-data" data-line-start="68" data-line-end="73">If the independent variable to you need is not present, “Add Option” can<br>
     be clicked on to add new variables. A new window will pop up presenting you with options to add your own<br>
     custom data variables. Dropdown menus are available showing available functions, special states<br>
     (winner, loser, red, yellow, etc.), and data elements to be used. Any previously created data variable can<br>
     be used as an input for the data selection.</p>
-    <p class="has-line-data" data-line-start="68" data-line-end="69"><img width=800 src="images/img_10.png" alt="img_10.png"></p>
-    <p class="has-line-data" data-line-start="70" data-line-end="71">Additionally, if line scores are selected as a data element the ends necessary will need to be specified.</p>
-    <h3 class="code-line" data-line-start=72 data-line-end=73 ><a id="Exporting_to_CSV_72"></a>Exporting to CSV</h3>
-    <p class="has-line-data" data-line-start="74" data-line-end="77">To export your data to a CSV, click the green “To CSV” button in the bottom right. The data set will be<br>
+    <p class="has-line-data" data-line-start="74" data-line-end="75"><img src="readmeImages/img_10.png" alt="img_10.png"></p>
+    <p class="has-line-data" data-line-start="76" data-line-end="77">Additionally, if line scores are selected as a data element the ends necessary will need to be specified.</p>
+    <h3 class="code-line" data-line-start=78 data-line-end=79 ><a id="Exporting_to_CSV_78"></a>Exporting to CSV</h3>
+    <p class="has-line-data" data-line-start="80" data-line-end="83">To export your data to a CSV, click the green “To CSV” button in the bottom right. The data set will be<br>
     cleaned by removing any records that do not match the expected values for each data field, and a file dialog<br>
     window will be launched to permit you to save the file in your desired location.</p>
     <hr>
-    <h1 class="code-line" data-line-start=79 data-line-end=80 ><a id="Bug_Reporting_79"></a>Bug Reporting</h1>
+    <h1 class="code-line" data-line-start=85 data-line-end=86 ><a id="Bug_Reporting_85"></a>Bug Reporting</h1>
     <ul>
-        <li class="has-line-data" data-line-start="80" data-line-end="82">Because this is a Beta release, there are likely to be some bugs. If any are found, please fill out our<br>
-        <a href="https://forms.gle/a81KZ8MF55q5G7bs9">Beta Bug Reporting Form</a>.</li>
-        <li class="has-line-data" data-line-start="82" data-line-end="84">You can see the progress and status of different bugs in the<br>
-        <a href="https://trello.com/b/3jCCACQV/curling-scrapper-bug-reporting">Bug Reporting Task Board</a></li>
+    <li class="has-line-data" data-line-start="86" data-line-end="88">Because this is a Beta release, there are likely to be some bugs. If any are found, please fill out our<br>
+    <a href="https://forms.gle/a81KZ8MF55q5G7bs9">Beta Bug Reporting Google Form</a>.</li>
+    <li class="has-line-data" data-line-start="88" data-line-end="90">You can see the progress and status of different bugs in the<br>
+    <a href="https://trello.com/b/3jCCACQV/curling-scrapper-bug-reporting">Bug Reporting Task Board</a></li>
     </ul>
-    <a href="CurlScrape.exe" download="CurlingScrapper.exe" id="v00.10.00">Download Scrapper for Windows</a>
+    <a href="CurlScrape.exe" download="Curling Scrapper" id="v00.01.20">Download Scrapper for Windows</a>
 </body>
 </html>
