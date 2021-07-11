@@ -131,13 +131,108 @@ body {
 /* CV Styles */
 .cv-section-wrapper {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.name-plate h1 {
+    font-size: 350%;
 }
 
 .quick-ref-wrapper {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
-    color: white;
+    background: linear-gradient(0deg, rgb(97, 97, 97) 0%, rgba(255,255,255,1) 100%);
+    padding: 5px;
 }
+
+.quick-ref-wrapper > h1 {
+    color: rgb(0, 0, 0);
+}
+
+.contact-wrapper > p > a:link {
+    color: #06E06C;
+}
+
+.contact-wrapper > p > a:visited {
+    color: #06E06C;
+}
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+
+
+.skill-bar {
+  width: 100%;
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+    /* Hard Skills */
+    .english {
+        width: 97%; 
+        background-color: #06E06C; 
+    }
+
+    .html {
+        width: 95%; 
+        background-color: #06E06C;
+    }
+
+    .excel {
+        width: 95%; 
+        background-color: #06E06C;
+    }
+
+    .ppt {
+        width: 90%; 
+        background-color: #06E06C;
+    }
+
+    .java {
+        width: 85%; 
+        background-color: #06E06C;
+    }
+
+    .word {
+        width: 85%; 
+        background-color: #06E06C;
+    }
+
+    .french {
+        width: 60%; 
+        background-color: #06E06C; 
+    }
+
+    /* Soft Skills */
+
+    .create {
+        width: 95%; 
+        background-color: #06E06C;
+    }
+
+    .comm {
+        width: 95%; 
+        background-color: #06E06C;
+    }
+
+    .team {
+        width: 92%; 
+        background-color: #06E06C;
+    }
+
+    .problem {
+        width: 90%; 
+        background-color: #06E06C;
+    }
+
+    .humour {
+        width: 80%; 
+        background-color: #06E06C; 
+    }
 
 .quick-ref-wrapper img {
     width: 100%;
@@ -148,5 +243,25 @@ body {
 }
 
 .cv-section-content-wrapper {
-    padding: 20px;
+    padding: 5px;
+}
+
+.cv-section h1 {
+    color: #06E06C;
+    font-size: 250%;
+}
+
+.cv-section-content-wrapper > .title {
+    font-weight: underline;
+}
+
+.cv-section-content-wrapper > .location {
+    opacity: 60%;
+    font-size: 115%;
+}
+
+.cv-section-content-wrapper > .dates {
+    opacity: 60%;
+    font-size: 90%;
+    font-style: italic;
 }
