@@ -278,6 +278,13 @@ body {
     width: 100%;
     padding: 0;
 }
+.index-image-wrapper iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+ }
 
 .index-content-wrapper {
     padding: 30px;
