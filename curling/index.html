@@ -8,182 +8,199 @@
 
 <body>
     <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Curling_Canada_Scraper_0"></a>Curling Canada Scraper</h1>
-<ul>
-<li class="has-line-data" data-line-start="1" data-line-end="2"><strong>Author:</strong> Matthew Buglass</li>
-<li class="has-line-data" data-line-start="2" data-line-end="3"><strong>Copyright © 2021. Edwards School of Business - University of Saskatchewan</strong></li>
-<li class="has-line-data" data-line-start="3" data-line-end="4"><strong>Version:</strong> 01.00.00</li>
-<li class="has-line-data" data-line-start="4" data-line-end="5"><strong>Maintainer:</strong> Matthew Buglass</li>
-<li class="has-line-data" data-line-start="5" data-line-end="6"><strong>Email:</strong> <a href="mailto:scrapefl@gmail.com">scrapefl@gmail.com</a></li>
-<li class="has-line-data" data-line-start="6" data-line-end="7"><strong>Status:</strong> Stable Release</li>
-<li class="has-line-data" data-line-start="7" data-line-end="9">Curling data collected from and used with permission of <a href="https://stats.curling.io/"> Curling Canada</a></li>
-</ul>
-<h1 class="code-line" data-line-start=9 data-line-end=10 ><a id="About_9"></a>About</h1>
-<p class="has-line-data" data-line-start="10" data-line-end="13">This program allows for scraping data from Canadian National curling championships<br>
-dating back to the 1928 MacDonald Brier. Additionally, users can customize their data<br>
-sets and preview them before exporting to a csv file format.</p>
-<h1 class="code-line" data-line-start=14 data-line-end=15 ><a id="Change_Log_14"></a>Change Log</h1>
-<p class="has-line-data" data-line-start="15" data-line-end="19"><em>Version 01.00.00:</em> Initial stable release. Includes neural network model training and saving.<br>
-<em>Version 00.01.20:</em> Various bug fixes for retrieving csv data.<br>
-<em>Version 00.01.10:</em> Hotfix for function adding in analysis section.<br>
-<em>Version 00.01.00:</em> Initial Beta Release.</p>
-<hr>
-<h1 class="code-line" data-line-start=22 data-line-end=23 ><a id="Features_22"></a>Features</h1>
-<h2 class="code-line" data-line-start=23 data-line-end=24 ><a id="Data_Scraping_23"></a>Data Scraping</h2>
-<p class="has-line-data" data-line-start="24" data-line-end="25"><img src="readmeImages/img_1.png" alt="img_1.png"></p>
-<p class="has-line-data" data-line-start="26" data-line-end="29">By clicking “Scrape” in the top left toolbar users can choose to scrape only years<br>
-of data that are not on file, or scrape all new data in case of database changes or<br>
-updates. Users can choose one of 5 professional curling tournaments:</p>
-<ul>
-<li class="has-line-data" data-line-start="29" data-line-end="30">Brier</li>
-<li class="has-line-data" data-line-start="30" data-line-end="31">Hearts</li>
-<li class="has-line-data" data-line-start="31" data-line-end="32">Men’s Trials</li>
-<li class="has-line-data" data-line-start="32" data-line-end="33">Men’s Canadian Cup</li>
-<li class="has-line-data" data-line-start="33" data-line-end="35">MacDonald Brier</li>
-</ul>
-<p class="has-line-data" data-line-start="35" data-line-end="39">After choosing the tournament and years, users can see progress updated from<br>
-the scrape while they wait for it to complete. After the data is on file locally,<br>
-summary statistics can be viewed for each tournament and year on the main screen<br>
-dashboard.</p>
-<p class="has-line-data" data-line-start="40" data-line-end="41"><img src="readmeImages/img_3.png" alt="img_3.png"></p>
-<h2 class="code-line" data-line-start=42 data-line-end=43 ><a id="Data_Customization_and_Export_42"></a>Data Customization and Export</h2>
-<p class="has-line-data" data-line-start="43" data-line-end="44"><img src="readmeImages/img_5.png" alt="img_5.png"></p>
-<p class="has-line-data" data-line-start="45" data-line-end="47">By clicking “Analyze” in the top Left toolbar users are able to choose a tournament<br>
-and year range of data that they would like to analyze.</p>
-<ul>
-<li class="has-line-data" data-line-start="47" data-line-end="48"><strong>Tournament:</strong> This is which tournament is to be analyzed (i.e. Brier, Hearts, Men’s, Women’s, All, etc.)</li>
-<li class="has-line-data" data-line-start="48" data-line-end="49"><strong>Years:</strong> The inclusive year range of data</li>
-<li class="has-line-data" data-line-start="49" data-line-end="53"><strong>Dependent Variable:</strong> The data variable that you’d like to predict
-<ul>
-<li class="has-line-data" data-line-start="50" data-line-end="52">Only one occurrence of a variable can appear in a data set (i.e. one variable cannot be<br>
-both dependent and independent)</li>
-<li class="has-line-data" data-line-start="52" data-line-end="53">The dependent variable will always appear to the far right of the data set</li>
-</ul>
-</li>
-<li class="has-line-data" data-line-start="53" data-line-end="59"><strong>Granularity:</strong> This is the level at which the data will be analyzed. The statistics from the<br>
-different levels of granularity can be combined using functions like add, sum, division, average,<br>
-standard deviation, and many more. There are 3 levels of granularity:
-<ul>
-<li class="has-line-data" data-line-start="56" data-line-end="57"><em>Match</em> will yield one data line for each game played and is used for comparing match ups</li>
-<li class="has-line-data" data-line-start="57" data-line-end="58"><em>Team</em> will yield two data lines for each game played (one for each team)</li>
-<li class="has-line-data" data-line-start="58" data-line-end="59"><em>Player</em> will yield one data line for each player in each game</li>
-</ul>
-</li>
-<li class="has-line-data" data-line-start="59" data-line-end="63"><strong>Data Variables:</strong> The data variables are on the left side of the screen and can be clicked on<br>
-to be added as independent variables to the data set. The variables will be added to the data set<br>
-in the order that they were clicked on. Selected variables will be highlighted.</li>
-</ul>
-<h3 class="code-line" data-line-start=63 data-line-end=64 ><a id="Adding_Variable_Options_63"></a>Adding Variable Options</h3>
-<p class="has-line-data" data-line-start="64" data-line-end="68"><img src="readmeImages/img_6.png" alt="img_6.png"><br>
-<img src="readmeImages/img_7.png" alt="img_7.png"><br>
-<img src="readmeImages/img_8.png" alt="img_8.png"><br>
-<img src="readmeImages/img_9.png" alt="img_9.png"></p>
-<p class="has-line-data" data-line-start="69" data-line-end="74">If the independent variable to you need is not present, “Add Option” can<br>
-be clicked on to add new variables. A new window will pop up presenting you with options to add your own<br>
-custom data variables. Dropdown menus are available showing available functions, special states<br>
-(winner, loser, red, yellow, etc.), and data elements to be used. Any previously created data variable can<br>
-be used as an input for the data selection.</p>
-<p class="has-line-data" data-line-start="75" data-line-end="76"><img src="readmeImages/img_10.png" alt="img_10.png"></p>
-<p class="has-line-data" data-line-start="77" data-line-end="78">Additionally, if line scores are selected as a data element the ends necessary will need to be specified.</p>
-<h3 class="code-line" data-line-start=79 data-line-end=80 ><a id="Exporting_to_CSV_79"></a>Exporting to CSV</h3>
-<p class="has-line-data" data-line-start="81" data-line-end="84">To export your data to a CSV, click the green “To CSV” button in the bottom right. The data set will be<br>
-cleaned by removing any records that do not match the expected values for each data field, and a file dialog<br>
-window will be launched to permit you to save the file in your desired location.</p>
-<h2 class="code-line" data-line-start=85 data-line-end=86 ><a id="Neural_Network_Training_85"></a>Neural Network Training</h2>
-<h3 class="code-line" data-line-start=87 data-line-end=88 ><a id="Neural_Network_Settings_87"></a>Neural Network Settings</h3>
-<p class="has-line-data" data-line-start="88" data-line-end="94"><img src="readmeImages/img_11.png" alt="img_11.png"><br>
-In this menu, you can customize the setting for a neural network that will be trained on the data set that<br>
-you just created. The dependent variable that you selected while customizing your data will be used as the<br>
-“target” for the model (ie. the thing that it will try to predict in the output layer), while the other data<br>
-elements will be put into the input layer and used to predict the target. At the top of the screen are<br>
-overarching settings for your model.</p>
-<h4 class="code-line" data-line-start=95 data-line-end=96 ><a id="General_Settings_95"></a>General Settings:</h4>
-<ul>
-<li class="has-line-data" data-line-start="96" data-line-end="101"><strong>Epochs:</strong> Epochs are the number of times that hte model is to be shown the data.<br>
-At each epoch, the data elements in the testing data set are shuffled and fed<br>
-through the network. The more epochs you use, the more accurate your model will be<br>
-(up to a point, because epoch number increases yield diminishing returns) but the<br>
-longer that your model will take to train.</li>
-<li class="has-line-data" data-line-start="101" data-line-end="107"><strong>Model Optimizer:</strong> The optimizer is the algorithm or method that the model uses to<br>
-change the internal weights and biases of the nodes in a neural network. Different<br>
-optimizers are more or less useful depending on the nature of your analysis.
-<ul>
-<li class="has-line-data" data-line-start="104" data-line-end="107">For discussion on different optimizers, refer to<br>
-<a href="https://towardsdatascience.com/overview-of-various-optimizers-in-neural-networks-17c1be2df6d5">Overview of various Optimizers in Neural Networks</a><br>
-written by Satyam Kumar.</li>
-</ul>
-</li>
-<li class="has-line-data" data-line-start="107" data-line-end="112"><strong>Training Percent:</strong> The training percent is a value from 1.0-100.0 that determines<br>
-how much of the dataset should be used to train, test, and validate the<br>
-model. The number entered will be the percent of the dataset that is used<br>
-for training. The remaining percent will be divided evenly into testing and<br>
-validation datasets.</li>
-<li class="has-line-data" data-line-start="112" data-line-end="119"><strong>Model Loss Function:</strong> The loss function is what is used to calculate the difference<br>
-in the model’s prediction and its target. The model attempts to minimize the result from<br>
-the loss function using the optimizer algorithm.
-<ul>
-<li class="has-line-data" data-line-start="115" data-line-end="119">For information on the four main loss functions, (Mean Squared Error, Binary Crossentropy,<br>
-Categorical Crossentropy, and Sparse Categorical Crossentropy) please see<br>
-<a href="https://towardsdatascience.com/understanding-different-loss-functions-for-neural-networks-dd1ed0274718">Understanding different Loss Functions for Neural Networks</a><br>
-written by Shiva Verma</li>
-</ul>
-</li>
-<li class="has-line-data" data-line-start="119" data-line-end="121"><strong>Model Name:</strong> This is what you would like to name your model. When saving, this will be the<br>
-folder name for the model.</li>
-<li class="has-line-data" data-line-start="121" data-line-end="125"><strong>Evaluation Metrics:</strong> These are additional data elements that you would like to use<br>
-to judge your model. You can select none, one, or many. Accuracy and Binary Accuracy are<br>
-common selections.</li>
-</ul>
-<p class="has-line-data" data-line-start="125" data-line-end="129">Below those, there are the hidden layer settings. Hidden layers are processing steps<br>
-that are sandwiched between the input and output layers. The layers are processed<br>
-sequentially from the top to the bottom. You can add, move, edit, or delete layers as<br>
-you wish. The model can have none, one, or many hidden layers.</p>
-<h4 class="code-line" data-line-start=129 data-line-end=130 ><a id="Hidden_Layer_Settings_129"></a>Hidden Layer Settings:</h4>
-<ul>
-<li class="has-line-data" data-line-start="130" data-line-end="131"><strong>Name:</strong> This is what you’d like to name the layer</li>
-<li class="has-line-data" data-line-start="131" data-line-end="134"><strong>Layer Size:</strong> This is the number of nodes in the layer. Each node will be initialized<br>
-with the activation function of the layer and will be independently updated as the<br>
-model is trained.</li>
-<li class="has-line-data" data-line-start="134" data-line-end="138"><strong>Layer Type:</strong> The layer type defines how the outputs of the previous layer are<br>
-directed to the inputs of this layer.
-<ul>
-<li class="has-line-data" data-line-start="136" data-line-end="138">Right now only the Dense layer type is available. With the Dense layer type, each<br>
-output of the previous layer is used as an input.</li>
-</ul>
-</li>
-<li class="has-line-data" data-line-start="138" data-line-end="146"><strong>Activation Function:</strong> The activation function is the mathematical relationship<br>
-between a node’s input and output. As an example, in single variate linear regression,<br>
-we have an input and an output, and the mx+b function that results from our regression<br>
-is analogous to a node’s activation function.
-<ul>
-<li class="has-line-data" data-line-start="142" data-line-end="146">For more explination on the types of activation functions, check out<br>
-<a href="https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6">Activation Functions in Neural Networks</a><br>
-writen by Sagar Sharma.</li>
-</ul>
-</li>
-</ul>
-<h2 class="code-line" data-line-start=146 data-line-end=147 ><a id="Neural_Network_Training_146"></a>Neural Network Training</h2>
-<p class="has-line-data" data-line-start="147" data-line-end="151"><img src="readmeImages/img_12.png" alt="img_12.png"><br>
-After hitting “Train Neural Network” on the settings screen, the dataset you created will<br>
-be cleaned and both it and your settings will be used to create and train a neural<br>
-network. While training, progress updates will be displayed on the screen.</p>
-<ul>
-<li class="has-line-data" data-line-start="152" data-line-end="157"><strong>Known Problems:</strong> At this stage, if the mouse is clicked a message on the top bar of<br>
-the application will say “Not Responding”. Do not worry. Your model is still training,<br>
-the window is just not updating. After the model has finished training, the screen will<br>
-update with the results from the training</li>
-</ul>
-<p class="has-line-data" data-line-start="157" data-line-end="161">After your model has finished training, you have the option to save it for later, once model<br>
-loading and prediction functionalities are implemented. After clicking “Save Model”, you will<br>
-select the directory that you would like your models to be saved in. A folder with your model’s<br>
-name will be created in that directory.</p>
-<hr>
-<h1 class="code-line" data-line-start=163 data-line-end=164 ><a id="Bug_Reporting_163"></a>Bug Reporting</h1>
-<ul>
-<li class="has-line-data" data-line-start="164" data-line-end="166">If you find any bugs or have suggestions, please fill out our<br>
-<a href="https://forms.gle/a81KZ8MF55q5G7bs9">Bug Reporting Google Form</a>.</li>
-<li class="has-line-data" data-line-start="166" data-line-end="168">You can see the progress and status of different bugs in the<br>
-<a href="https://trello.com/b/3jCCACQV/curling-scrapper-bug-reporting">Bug Reporting Task Board</a></li>
-</ul>
+    <ul>
+    <li class="has-line-data" data-line-start="1" data-line-end="2"><strong>Author:</strong> Matthew Buglass</li>
+    <li class="has-line-data" data-line-start="2" data-line-end="3"><strong>Copyright © 2021. Edwards School of Business - University of Saskatchewan</strong></li>
+    <li class="has-line-data" data-line-start="3" data-line-end="4"><strong>Version:</strong> 02.00.00</li>
+    <li class="has-line-data" data-line-start="4" data-line-end="5"><strong>Maintainer:</strong> Matthew Buglass</li>
+    <li class="has-line-data" data-line-start="5" data-line-end="6"><strong>Email:</strong> <a href="mailto:scrapefl@gmail.com">scrapefl@gmail.com</a></li>
+    <li class="has-line-data" data-line-start="6" data-line-end="7"><strong>Status:</strong> Stable Release</li>
+    <li class="has-line-data" data-line-start="7" data-line-end="9">Curling data collected from and used with permission of <a href="https://stats.curling.io/">Curling Canada</a></li>
+    </ul>
+    <h1 class="code-line" data-line-start=9 data-line-end=10 ><a id="About_9"></a>About</h1>
+    <p class="has-line-data" data-line-start="10" data-line-end="13">This program allows for scrapping data from Canadian National curling championships<br>
+    dating back to the 1928 MacDonald Brier. Additionally, users can customize their data<br>
+    sets and preview them before exporting to a CSV file format.</p>
+    <h1 class="code-line" data-line-start=14 data-line-end=15 ><a id="Change_Log_14"></a>Change Log</h1>
+    <p class="has-line-data" data-line-start="15" data-line-end="22"><em>Version 02.00.00:</em> Fixed bug issues related to creating neural network models. Models are<br>
+    saved with more extensive statistics and can be loaded into the program to make predictions. Long<br>
+    drop-down menus are displayed alphabetically to improve navigation<br>
+    <em>Version 01.00.00:</em> Initial stable release. Includes neural network model training and saving.<br>
+    <em>Version 00.01.20:</em> Various bug fixes for retrieving CSV data.<br>
+    <em>Version 00.01.10:</em> Hotfix for function adding in the analysis section.<br>
+    <em>Version 00.01.00:</em> Initial Beta Release.</p>
+    <hr>
+    <h1 class="code-line" data-line-start=25 data-line-end=26 ><a id="Features_25"></a>Features</h1>
+    <h2 class="code-line" data-line-start=26 data-line-end=27 ><a id="Data_Scraping_26"></a>Data Scraping</h2>
+    <p class="has-line-data" data-line-start="27" data-line-end="28"><img src="readmeImages/img_1.png" alt="Scrapping home screen"></p>
+    <p class="has-line-data" data-line-start="29" data-line-end="32">By clicking “Scrape” in the top left toolbar users can choose to scrape only years<br>
+    of data that are not on file, or scrape all new data in case of database changes or<br>
+    updates. Users can choose one of 5 professional curling tournaments:</p>
+    <ul>
+    <li class="has-line-data" data-line-start="32" data-line-end="33">Brier</li>
+    <li class="has-line-data" data-line-start="33" data-line-end="34">Hearts</li>
+    <li class="has-line-data" data-line-start="34" data-line-end="35">Men’s Trials</li>
+    <li class="has-line-data" data-line-start="35" data-line-end="36">Men’s Canadian Cup</li>
+    <li class="has-line-data" data-line-start="36" data-line-end="38">MacDonald Brier</li>
+    </ul>
+    <p class="has-line-data" data-line-start="38" data-line-end="42">After choosing the tournament and years, users can see progress updated from<br>
+    the scrape while they wait for it to complete. After the data is on file locally,<br>
+    summary statistics can be viewed for each tournament and year on the main screen<br>
+    dashboard.</p>
+    <p class="has-line-data" data-line-start="43" data-line-end="44"><img src="readmeImages/img_3.png" alt="Dashboard"></p>
+    <h2 class="code-line" data-line-start=45 data-line-end=46 ><a id="Data_Customization_and_Export_45"></a>Data Customization and Export</h2>
+    <p class="has-line-data" data-line-start="46" data-line-end="47"><img src="readmeImages/img_5.png" alt="Dataset customization screen"></p>
+    <p class="has-line-data" data-line-start="48" data-line-end="50">By clicking “Analyze” in the top Left toolbar users can choose a tournament<br>
+    and year range of data that they would like to analyze.</p>
+    <ul>
+    <li class="has-line-data" data-line-start="50" data-line-end="51"><strong>Tournament:</strong> This is which tournament is to be analyzed (i.e. Brier, Hearts, Men’s, Women’s, All, etc.)</li>
+    <li class="has-line-data" data-line-start="51" data-line-end="52"><strong>Years:</strong> The inclusive year range of data</li>
+    <li class="has-line-data" data-line-start="52" data-line-end="56"><strong>Dependent Variable:</strong> The data variable that you’d like to predict
+    <ul>
+    <li class="has-line-data" data-line-start="53" data-line-end="55">Only one occurrence of a variable can appear in a data set (i.e. one variable cannot be<br>
+    both dependent and independent)</li>
+    <li class="has-line-data" data-line-start="55" data-line-end="56">The dependent variable will always appear to the far right of the data set</li>
+    </ul>
+    </li>
+    <li class="has-line-data" data-line-start="56" data-line-end="62"><strong>Granularity:</strong> This is the level at which the data will be analyzed. The statistics from the<br>
+    different levels of granularity can be combined using functions like add, sum, division, average,<br>
+    standard deviation, and many more. There are 3 levels of granularity:
+    <ul>
+    <li class="has-line-data" data-line-start="59" data-line-end="60"><em>Match</em> will yield one data line for each game played and is used for comparing matchups</li>
+    <li class="has-line-data" data-line-start="60" data-line-end="61"><em>Team</em> will yield two data lines for each game played (one for each team)</li>
+    <li class="has-line-data" data-line-start="61" data-line-end="62"><em>Player</em> will yield one data line for each player in each game</li>
+    </ul>
+    </li>
+    <li class="has-line-data" data-line-start="62" data-line-end="66"><strong>Data Variables:</strong> The data variables are on the left side of the screen and can be clicked on<br>
+    to be added as independent variables to the data set. The variables will be added to the data set<br>
+    in the order that they were clicked on. Selected variables will be highlighted.</li>
+    </ul>
+    <h3 class="code-line" data-line-start=66 data-line-end=67 ><a id="Adding_Variable_Options_66"></a>Adding Variable Options</h3>
+    <p class="has-line-data" data-line-start="67" data-line-end="71"><img src="readmeImages/img_6.png" alt="Add Analysis option screen 1"><br>
+    <img src="readmeImages/img_7.png" alt="Add Analysis option screen 2"><br>
+    <img src="readmeImages/img_8.png" alt="Add Analysis option screen 3"><br>
+    <img src="readmeImages/img_9.png" alt="Add Analysis option screen 4"></p>
+    <p class="has-line-data" data-line-start="72" data-line-end="77">If the independent variable you need is not present, “Add Option” can<br>
+    be clicked on to add new variables. A new window will pop up presenting you with options to add<br>
+    custom data variables. Dropdown menus are available showing available functions, special states<br>
+    (winner, loser, red, yellow, etc.), and data elements to be used. Any previously created data variable can<br>
+    be used as an input for the data selection.</p>
+    <p class="has-line-data" data-line-start="78" data-line-end="79"><img src="readmeImages/img_10.png" alt="Add Analysis option screen 5"></p>
+    <p class="has-line-data" data-line-start="80" data-line-end="81">Additionally, if line scores are selected as a data element the ends necessary will need to be specified.</p>
+    <h3 class="code-line" data-line-start=82 data-line-end=83 ><a id="Exporting_to_CSV_82"></a>Exporting to CSV</h3>
+    <p class="has-line-data" data-line-start="84" data-line-end="87">To export your data to a CSV, click the green “To CSV” button in the bottom right. The data set will be<br>
+    cleaned by removing any records that do not match the expected values for each data field, and a file dialogue<br>
+    window will be launched to permit you to save the file in your desired location.</p>
+    <h2 class="code-line" data-line-start=88 data-line-end=89 ><a id="Neural_Network_Training_88"></a>Neural Network Training</h2>
+    <h3 class="code-line" data-line-start=90 data-line-end=91 ><a id="Neural_Network_Settings_90"></a>Neural Network Settings</h3>
+    <p class="has-line-data" data-line-start="91" data-line-end="97"><img src="readmeImages/img_11.png" alt="Neural Network Customization Screen"><br>
+    In this menu, you can customize the setting for a neural network that will be trained on the data set that<br>
+    you just created. The dependent variable that you selected while customizing your data will be used as the<br>
+    “target” for the model (ie. the thing that it will try to predict in the output layer), while the other data<br>
+    elements will be put into the input layer and used to predict the target. At the top of the screen are<br>
+    overarching settings for your model.</p>
+    <h4 class="code-line" data-line-start=98 data-line-end=99 ><a id="General_Settings_98"></a>General Settings:</h4>
+    <ul>
+    <li class="has-line-data" data-line-start="99" data-line-end="104"><strong>Epochs:</strong> Epochs are the number of times that the model is to be shown the data.<br>
+    At each epoch, the data elements in the testing data set are shuffled and fed<br>
+    through the network. The more epochs you use, the more accurate your model will be<br>
+    (up to a point, because epoch number increases yield diminishing returns) but the<br>
+    longer that your model will take to train.</li>
+    <li class="has-line-data" data-line-start="104" data-line-end="110"><strong>Model Optimizer:</strong> The optimizer is the algorithm or method that the model uses to<br>
+    change the internal weights and biases of the nodes in a neural network. Different<br>
+    optimizers are more or less useful depending on the nature of your analysis.
+    <ul>
+    <li class="has-line-data" data-line-start="107" data-line-end="110">For discussion on different optimizers, refer to<br>
+    <a href="https://towardsdatascience.com/overview-of-various-optimizers-in-neural-networks-17c1be2df6d5">Overview of various Optimizers in Neural Networks</a><br>
+    written by Satyam Kumar.</li>
+    </ul>
+    </li>
+    <li class="has-line-data" data-line-start="110" data-line-end="115"><strong>Training Percent:</strong> The training percent is a value from 1.0-100.0 that determines<br>
+    how much of the dataset should be used to train, test, and validate the<br>
+    model. The number entered will be the percent of the dataset that is used<br>
+    for training. The remaining percent will be divided evenly into testing and<br>
+    validation datasets.</li>
+    <li class="has-line-data" data-line-start="115" data-line-end="122"><strong>Model Loss Function:</strong> The loss function is what is used to calculate the difference<br>
+    in the model’s prediction and its target. The model attempts to minimize the result from<br>
+    the loss function using the optimizer algorithm.
+    <ul>
+    <li class="has-line-data" data-line-start="118" data-line-end="122">For information on the four main loss functions, (Mean Squared Error, Binary Crossentropy,<br>
+    Categorical Crossentropy, and Sparse Categorical Crossentropy) please see<br>
+    <a href="https://towardsdatascience.com/understanding-different-loss-functions-for-neural-networks-dd1ed0274718">Understanding different Loss Functions for Neural Networks</a><br>
+    written by Shiva Verma</li>
+    </ul>
+    </li>
+    <li class="has-line-data" data-line-start="122" data-line-end="124"><strong>Model Name:</strong> This is what you would like to name your model. When saving, this will be the<br>
+    folder name for the model.</li>
+    <li class="has-line-data" data-line-start="124" data-line-end="128"><strong>Evaluation Metrics:</strong> These are additional data elements that you would like to use<br>
+    to judge your model. You can select none, one, or many. Accuracy and Binary Accuracy are<br>
+    common selections.</li>
+    </ul>
+    <p class="has-line-data" data-line-start="128" data-line-end="132">Below those, there are the hidden layer settings. Hidden layers are processing steps<br>
+    that are sandwiched between the input and output layers. The layers are processed<br>
+    sequentially from the top to the bottom. You can add, move, edit, or delete layers as<br>
+    you wish. The model can have none, one, or many hidden layers.</p>
+    <h4 class="code-line" data-line-start=132 data-line-end=133 ><a id="Hidden_Layer_Settings_132"></a>Hidden Layer Settings:</h4>
+    <ul>
+    <li class="has-line-data" data-line-start="133" data-line-end="134"><strong>Name:</strong> This is what you’d like to name the layer</li>
+    <li class="has-line-data" data-line-start="134" data-line-end="137"><strong>Layer Size:</strong> This is the number of nodes in the layer. Each node will be initialized<br>
+    with the activation function of the layer and will be independently updated as the<br>
+    model is trained.</li>
+    <li class="has-line-data" data-line-start="137" data-line-end="141"><strong>Layer Type:</strong> The layer type defines how the outputs of the previous layer are<br>
+    directed to the inputs of this layer.
+    <ul>
+    <li class="has-line-data" data-line-start="139" data-line-end="141">Right now only the Dense layer type is available. With the Dense layer type, each<br>
+    output of the previous layer is used as an input.</li>
+    </ul>
+    </li>
+    <li class="has-line-data" data-line-start="141" data-line-end="149"><strong>Activation Function:</strong> The activation function is the mathematical relationship<br>
+    between a node’s input and output. As an example, in single variate linear regression,<br>
+    we have an input and an output, and the mx+b function that results from our regression<br>
+    is analogous to a node’s activation function.
+    <ul>
+    <li class="has-line-data" data-line-start="145" data-line-end="149">For more explanation on the types of activation functions, check out<br>
+    <a href="https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6">Activation Functions in Neural Networks</a><br>
+    writen by Sagar Sharma.</li>
+    </ul>
+    </li>
+    </ul>
+    <h2 class="code-line" data-line-start=149 data-line-end=150 ><a id="Neural_Network_Training_and_Prediction_149"></a>Neural Network Training and Prediction</h2>
+    <h3 class="code-line" data-line-start=150 data-line-end=151 ><a id="Network_Training_150"></a>Network Training</h3>
+    <p class="has-line-data" data-line-start="151" data-line-end="155"><img src="readmeImages/img_12.png" alt="img_12.png"><br>
+    After hitting “Train Neural Network” on the settings screen, the dataset you created will<br>
+    be cleaned and both it and your settings will be used to create and train a neural<br>
+    network. While training, progress updates will be displayed on the screen.</p>
+    <ul>
+    <li class="has-line-data" data-line-start="156" data-line-end="161"><strong>Known Problems:</strong> At this stage, if the mouse is clicked a message on the top bar of<br>
+    the application will say “Not Responding”. Do not worry. Your model is still training,<br>
+    the window is just not updating. After the model has finished training, the screen will<br>
+    update with the results from the training</li>
+    </ul>
+    <p class="has-line-data" data-line-start="161" data-line-end="164">After your model has finished training, you have the option to save it for later. After clicking<br>
+    “Save Model”, you will select the directory that you would like your models to be saved in. A<br>
+    folder with your model’s name will be created in that directory.</p>
+    <h3 class="code-line" data-line-start=165 data-line-end=166 ><a id="Network_Prediction_165"></a>Network Prediction</h3>
+    <p class="has-line-data" data-line-start="166" data-line-end="169">By clicking “Model Predict” on the menu bar, you will be prompted to pick the folder<br>
+    of the model that you would like to make predictions from. Make sure that the folder you<br>
+    select has the header “curling_ai_model_” because all files in that folder are required.</p>
+    <p class="has-line-data" data-line-start="170" data-line-end="171"><img src="readmeImages/img_13.png" alt="Model loading file dialog"></p>
+    <p class="has-line-data" data-line-start="172" data-line-end="174">Once the model loads, you can input values and select different variables to make  predictions on the trained model. Your most recent prediction will appear on the<br>
+    top of the screen.</p>
+    <p class="has-line-data" data-line-start="175" data-line-end="176"><img src="readmeImages/img_14.png" alt="Model prediction"></p>
+    <p class="has-line-data" data-line-start="177" data-line-end="181">If you look inside the “curling_ai_model_” you’ll find the files that describe the<br>
+    saved model. By opening the stats text file, you can see the settings that were used<br>
+    to train the model, its layer structure, what it was trying to predict, and the results<br>
+    of its evaluation metrics.</p>
+    <p class="has-line-data" data-line-start="182" data-line-end="184"><img src="readmeImages/img_15.png" alt="Inside curling_ai folder"><br>
+    <img src="readmeImages/img_16.png" alt="Stats text file"></p>
+    <hr>
+    <h1 class="code-line" data-line-start=186 data-line-end=187 ><a id="Bug_Reporting_186"></a>Bug Reporting</h1>
+    <ul>
+    <li class="has-line-data" data-line-start="187" data-line-end="189">If you find any bugs or have suggestions, please fill out our<br>
+    <a href="https://forms.gle/a81KZ8MF55q5G7bs9">Bug Reporting Google Form</a>.</li>
+    <li class="has-line-data" data-line-start="189" data-line-end="191">You can see the progress and status of different bugs in the<br>
+    <a href="https://trello.com/b/3jCCACQV/curling-scrapper-bug-reporting">Bug Reporting Task Board</a></li>
+    </ul>
     <a href="CurlScrape.exe" download="Curling Scrapper" id="v00.01.20">Download Scraper for Windows</a>
 </body>
 </html>
