@@ -84,6 +84,11 @@ body {
     margin-bottom: 20px;
 }
 
+.img-text-wrapper:hover .logo-wrapper img {
+    transition: 1s;
+    filter: invert(1);
+}
+
 .subtitle > a {
     color: inherit;
 }
