@@ -6,26 +6,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
+    <script src="/js/general.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="nav-wrapper">
-            <div class="left-col">
-                <div class="nav-link-wrapper">
-                    <a href="/">Home</a>
-                </div>
-                <div class="nav-link-wrapper">
-                    <a href="/cv/">CV</a>
-                </div>
-            </div>
-
-            <div class="right">
-                <div class="brand">
-                    <div>MATTHEW BUGLASS</div>
-                </div>
-            </div>
-        </div>
+        <div include="/views/header.html"></div>
         
         
         <div class="content-wrapper">
@@ -93,4 +79,7 @@
             </div>
         </div>
     </div>
+    <script>
+        includeHTML();
+    </script>
 </body>
