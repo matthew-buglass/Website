@@ -7,29 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/js/general.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="nav-wrapper">
-            <div class="left-col">
-                <div class="nav-link-wrapper">
-                    <a href="../index.html">Home</a>
-                </div>
-                <!-- <div class="nav-link-wrapper">
-                    <a href="about.html">About</a>
-                </div> -->
-                <div class="nav-link-wrapper active-nav-link">
-                    <a href="../cv/index.html">CV</a>
-                </div>
-            </div>
-
-            <div class="right">
-                <div class="brand">
-                    <div>MATTHEW BUGLASS</div>
-                </div>
-            </div>
-        </div>
+        <div include="/views/header.html"></div>
         <div class="content-wrapper">
             <div class="cv-section-wrapper">
                 
@@ -289,5 +272,8 @@
             </div>
         </div>
     </div>
+    <script>
+        includeHTML();
+    </script>
 </body>
 </html>

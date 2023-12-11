@@ -47,6 +47,16 @@ body {
     color: black;
 }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 3px;
+    display: block;
+}
+
 /* Portfolio Styles */
 .portfolio-items-wrapper {
     display: grid;
@@ -82,6 +92,11 @@ body {
 .logo-wrapper img {
     width: 50%;
     margin-bottom: 20px;
+}
+
+.img-text-wrapper:hover .logo-wrapper img {
+    transition: 1s;
+    filter: invert(1);
 }
 
 .subtitle > a {
