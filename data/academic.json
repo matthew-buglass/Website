@@ -1,0 +1,32 @@
+[
+    {
+        "title": "SAFe® 5 & 6 Scrum Master",
+        "location": "<a href='https://scaledagileframework.com/'>Scaled Agile Framework</a>",
+        "dates": "November 2022 - Present",
+        "details": "The SAFe Scrum Master/Team Coach (SM/TC) is a servant leader and coach for an Agile team who facilitates team events and processes, and supports teams and ARTs in delivering value.<br>They help educate the team in Scrum, Built-in-Quality, Kanban, and SAFe and ensure that the agreed Agile processes are followed. They also help remove impediments and foster an environment for high-performing team dynamics, continuous flow, and relentless improvement.<br>© Scaled Agile, Inc."
+    },
+    {
+        "title": "JDC West, Operations Management Coach",
+        "location": "<a href='https://www.saskyjdcwest.com/'>Edwards School of Business: Team Sasky</a> Organizing Commitee - University of Saskatchewan",
+        "dates": "April 2021 - January 2022",
+        "details": "'JDC West is the most prestigious undergraduate business competition in Western Canada, hosting 1,300 attendees and uniting over 650 delegates from twelve premier post-secondary institutions each year. Over the course of three days, students from British Columbia, Alberta, Saskatchewan and Manitoba showcase their skills in the academic, athletic, debate, and social aspects of the competition.'(<a href='https://www.jdcwest.org/'>www.jdcwest.org/</a>)"
+    },
+    {
+        "title": "C Developer - <a href='https://usst.ca/'>University of Saskatchewan Space Design Team</a>",
+        "location": "University of Saskatchewan",
+        "dates": "June 2021 - April 2022",
+        "details": "'The University of Saskatchewan Space Team is a multidisciplinary student group focusing on building and designing space-related technology. From space elevators, to rovers, to satellites, we have been inspiring young engineers for over 15 years.'<br><br>As a C developer on the Software and Command sub-team, I was part of a team that writes all of the software for the on board computer for our <a href='https://usst.ca/cubesat/'>CubeSat</a> project."
+    },
+    {
+        "title": "JDC West, Business Technology Team Member",
+        "location": "<a href='https://www.saskyjdcwest.com/'>Edwards School of Business: Team Sasky</a> Organizing Commitee - University of Saskatchewan",
+        "dates": "March 2020 - February 2021",
+        "details": "'JDC West is the most prestigious undergraduate business competition in Western Canada, hosting 1,300 attendees and uniting over 650 delegates from twelve premier post-secondary institutions each year. Over the course of three days, students from British Columbia, Alberta, Saskatchewan and Manitoba showcase their skills in the academic, athletic, debate, and social aspects of the competition.'(<a href='https://www.jdcwest.org/'>www.jdcwest.org/</a>)<br><br>As a Business Technology Team, we specialized in devising holistic technological solutions for business problems. Whenever changing or implementing new technologies you always have to consider the human aspect of these dramatic changes. In our solutions, we always devised a robust transition plan to ensure employees received training so they felt comfortable and positive about technological changes."
+    },
+    {
+        "title": "JDC West, Operations Management Team Member",
+        "location": "<a href='https://www.saskyjdcwest.com/'>Edwards School of Business: Team Sasky</a> Organizing Commitee - University of Saskatchewan",
+        "dates": "Octomer 2019 - February 2020",
+        "details": "'JDC West is the most prestigious undergraduate business competition in Western Canada, hosting 1,300 attendees and uniting over 650 delegates from twelve premier post-secondary institutions each year. Over the course of three days, students from British Columbia, Alberta, Saskatchewan and Manitoba showcase their skills in the academic, athletic, debate, and social aspects of the competition.'(<a href='https://www.jdcwest.org/'>www.jdcwest.org/</a>)<br><br>As an Operations Management Team, we specialized in analyzing and solving problems associated with policies, procedures, and processes. We used mathematical modelling to forecast demand and solve cases relating to warehousing, inventory, manufacturing, and transportation."
+    }
+]
