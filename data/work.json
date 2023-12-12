@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Software Developer 0",
+        "location": "Andgo Systems",
+        "dates": "May 2022 - August 2023",
+        "details": "I worked on an internal tools development team. My work focused on code quality, performance tracking, CI/CD integrations, Internationalization, and virtual machine and Kubernetes deployment flows."
+    },
+    {
+        "title": "Sports Statistics Research Assistant",
+        "location": "University of Saskatchewan",
+        "dates": "June 2019 - April 2022",
+        "details": "I conducted data collection, data analysis, and software development in conjunction with my supervisor, Dean Keith Willoughby - Edwards School of Business. Currently, I implemented Neural Networks to investigate data and research questions pertaining to professional curling in Canada."
+    }
+]
